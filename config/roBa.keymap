@@ -83,7 +83,7 @@
 &kp Q        &kp W         &kp E         &kp R           &kp T                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &mt LCTRL A  &kp S         &kp D         &kp F           &kp G        &lt 6 ESC        &kp MINUS         &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp Z        &kp X         &kp C         &kp V           &kp B        &lt 1 LANG1      &lt 3 LANGUAGE_2  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL    &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp TAB          &kp BACKSPACE     &lt 2 ENTER                             &kp DEL
+&kp LCTRL    &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp TAB          &kp BACKSPACE     &lt 3 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&mkp MB4  &mkp MB5  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans    &trans    &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans    &trans    &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans    &trans    &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&mkp MB4  &mkp MB5  &trans           &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans    &trans    &kp PRINTSCREEN  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans    &trans    &trans           &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans    &trans    &trans           &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
         };
 
@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                &kp F1   &kp F2   &kp F3    &kp F4    &kp F5
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans           &kp F6   &kp F7   &kp F8    &kp F9    &kp F10
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp PRINTSCREEN  &kp F11  &kp F12  &mkp MB4  &mkp MB5  &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans           &trans                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
