@@ -70,11 +70,11 @@
             label = "NEW_MACRO";
         };
 
-        macsc: new_macro {
+        macsc: macsc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(LEFT_COMMAND) &kp NUMBER_3>;
-            label = "NEW_MACRO";
+            label = "macsc";
         };
     };
 
