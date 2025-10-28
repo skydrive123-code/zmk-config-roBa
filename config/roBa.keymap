@@ -100,15 +100,15 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG1  &lt 2 SPACE  &lt 3 LANGUAGE_2      &kp BACKSPACE    &lt 1 ENTER                             &kp RS(EQUAL)
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         FUNCTION {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                                     &kp F2                &kp F4                   &kp UP_ARROW    &kp F5           &kp F12
-&kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none                   &none                &none                 &kp LEFT_ARROW           &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&none         &none         &none         &none         &none         &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &kp LS(LG(NUMBER_4))  &kp LS(LG(KP_NUMBER_5))  &none           &none            &none
-&none         &none         &none         &none         &none         &none                   &none                &none                                                                           &none
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                                     &kp F2                   &kp F4                   &kp UP_ARROW    &kp F5           &kp F12
+&kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none                   &none                &none                    &kp LEFT_ARROW           &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&none         &none         &none         &none         &none         &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &kp LS(LG(KP_NUMBER_4))  &kp LS(LG(KP_NUMBER_3))  &none           &none            &none
+&none         &none         &none         &none         &none         &none                   &none                &none                                                                              &none
             >;
         };
 
