@@ -39,19 +39,14 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <18 19>;
         };
     };
 
@@ -100,7 +95,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG1  &lt 2 SPACE  &lt 3 LANGUAGE_2      &kp BACKSPACE    &lt 1 ENTER                             &kp RS(EQUAL)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp K_VOL_UP C_VOL_DN>;
         };
 
         FUNCTION {
