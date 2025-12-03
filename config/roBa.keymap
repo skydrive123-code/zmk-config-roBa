@@ -45,7 +45,7 @@
         };
 
         win_opt {
-            bindings = <&kp LEFT_WIN>;
+            bindings = <&kp RIGHT_GUI>;
             key-positions = <18 19>;
         };
     };
