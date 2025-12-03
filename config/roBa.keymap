@@ -43,11 +43,6 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
-
-        win_opt {
-            bindings = <&kp RIGHT_GUI>;
-            key-positions = <18 19>;
-        };
     };
 
     macros {
