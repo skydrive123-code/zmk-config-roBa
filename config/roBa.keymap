@@ -89,8 +89,6 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp TAB               &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG1  &lt 2 SPACE  &lt 3 LANGUAGE_2      &kp BACKSPACE    &lt 1 ENTER                             &kp RS(EQUAL)
             >;
-
-            sensor-bindings = <&inc_dec_kp K_VOL_UP C_VOL_DN>;
         };
 
         FUNCTION {
