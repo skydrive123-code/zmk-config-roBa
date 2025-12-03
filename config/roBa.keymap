@@ -44,7 +44,7 @@
             key-positions = <20 21>;
         };
 
-        win {
+        win_opt {
             bindings = <&kp LEFT_WIN>;
             key-positions = <18 19>;
         };
