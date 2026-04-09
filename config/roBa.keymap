@@ -94,13 +94,13 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                 &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F                 &kp G        &lt 6 ESC        &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp QUESTION
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &kp TAB          &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 2 SPACE  &lt 3 LANG1      &kp BACKSPACE    &lt 1 ENTER                             &kp RS(EQUAL)
+&kp Q             &kp W         &kp E         &kp R        &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A       &kp S         &kp D         &kp F        &kp G        &lt 6 ESC        &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp QUESTION
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp TAB          &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG2  &lt 2 SPACE  &lt 3 LANG1      &kp BACKSPACE    &lt 1 ENTER                             &kp RS(EQUAL)
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(C_VOLUME_UP) LC(K_VOLUME_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(A) LC(B)>;
         };
 
         FUNCTION {
