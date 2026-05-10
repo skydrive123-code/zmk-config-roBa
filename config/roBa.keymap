@@ -107,7 +107,7 @@
             bindings = <
 &none  &kp DOUBLE_QUOTES  &kp QUESTION   &kp EXCLAMATION  &kp EQUAL                                         &none             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &none
 &none  &kp SINGLE_QUOTE   &kp AMPERSAND  &kp PERCENT      &kp MINUS           &none          &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE     &none
-&none  &kp SLASH          &kp HASH       &kp DOLLAR       &kp LC(UNDERSCORE)  &kp TILDE      &none          &none             &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS     &none
+&none  &kp SLASH          &kp HASH       &kp DOLLAR       &kp LC(UNDERSCORE)  &kp TILDE      &kp COLON      &kp SEMICOLON     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS     &none
 &none  &none              &none          &none            &none               &none          &none          &none                                                                       &none
             >;
         };
