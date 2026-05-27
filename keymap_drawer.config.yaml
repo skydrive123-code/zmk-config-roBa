@@ -1,0 +1,65 @@
+parse_config:
+  layer_legend_map:
+    default: BASE
+    FUNCTION: FN
+    NUM: NUM
+    ARROW: NAV
+    MOUSE: MOUSE
+    SCROLL: SCRL
+    "6": BT
+
+  zmk_keycode_map:
+    INT_HENKAN: HENK
+    INT_MUHENKAN: MUHENK
+    LEFT_CTRL: LCTRL
+    LEFT_SHIFT: LSFT
+    LEFT_ALT: LALT
+    LEFT_WIN: LGUI
+    RIGHT_CTRL: RCTRL
+    RIGHT_SHIFT: RSFT
+    RIGHT_ALT: RALT
+    RIGHT_WIN: RGUI
+
+  raw_binding_map:
+    "&bootloader": BOOT
+    "&sys_reset": RESET
+    "&mkp MB1": MB1
+    "&mkp MB2": MB2
+    "&mkp MB3": MB3
+    "&bt BT_SEL 0": BT0
+    "&bt BT_SEL 1": BT1
+    "&bt BT_SEL 2": BT2
+    "&bt BT_SEL 3": BT3
+    "&bt BT_SEL 4": BT4
+    "&bt BT_CLR": BT CLR
+    "&bt BT_CLR_ALL": BT CLR ALL
+    "&to_layer_0 INT_HENKAN": HENK
+    "&to_layer_0 INT_MUHENKAN": MUHENK
+    "&lt_to_layer_0 6 INT_HENKAN":
+      t: HENK
+      h: BT
+    "&lt_to_layer_0 3 INT_MUHENKAN":
+      t: MUHENK
+      h: NAV
+
+draw_config:
+  n_columns: 2
+  dark_mode: auto
+  key_rx: 4
+  key_ry: 4
+  combo_w: 34
+  combo_h: 24
+  shrink_wide_legends: 8
+  footer_text: roBa / ZMK
+  svg_extra_style: |
+    svg.keymap {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    rect.key {
+      stroke-width: 1.2;
+    }
+
+    text.footer {
+      opacity: 0.55;
+    }
